@@ -19,22 +19,22 @@ var now = moment().format("dddd, MMMM Do YYYY");
 $("#currentDay").text(now);
 console.log(now);
 
-function timeOfDay() {
-    if (moment().isBefore(hours, "hour") === true) {
-        $(".textarea").addClass("past");
-    }
+console.log(moment().hour());
 
-    else if (moment().isSame(hours, "hour") === true) {
+for (i = 0; i < hours.length; i++) {
+    if (moment().hour() === hours[i]) {
         $(".textarea").addClass("present");
     }
-
+    
     else {
         $(".textarea").addClass("future");
     }
 }
 
-timeOfDay();
 
+    // else if (moment().isSame(hours[i], "hour")) {
+    //     $(".textarea").addClass("present");
+    // }
 var saveBtn = $(".saveBtn");
 
 saveBtn.on("click", function(event) {
