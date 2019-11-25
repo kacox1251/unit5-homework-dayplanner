@@ -2,9 +2,8 @@
 
 ## Description
 
-This is the password generator for the Unit 3 homework.
-for this homework I needed to combine HTML, CSS, and JS. This project demonstrates my skills using Javascript. Javascript really brings webpages to life. It feels like half of the time I understand JS and can accomplish a lot. The other half of the time it is really hard for me to figure out why things aren't working. I felt like I was on the right path with this project and when it came down to it the characters for the password weren't generating like they were supposed to.
-
+This is the functional day planner for the Unit 5 homework.
+For this homework I had to use Jquery as well as Moment.js to create a functional day planner. Jquery is very convenient to use for writing quick and effective Javascript. The hardnest part of this homework was trying to use Moment.js. It is such a huge tool to get ahold of and I would love to spend more time to study it in order to use it more effectively.
 
 ## Installation
 
